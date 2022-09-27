@@ -1,0 +1,24 @@
+{
+    "table": "members",
+    "mockStartIndex": "auto",
+    "mockCount": 10,
+    "mockValueReference": "http://mockjs.com/examples.html#DPD",
+    "mock": {
+        "account_id": {
+            "type": "varchar",
+            "value": "@string('lower',10)"
+        },
+        "account_pw": {
+            "type": "varchar",
+            "value": "@string('lower',15)"
+        },
+        "name": {
+            "type": "varchar",
+            "value": "@string('lower',15)"
+        },
+        "email": {
+            "type": "varchar",
+            "value": "@string('lower',20)"
+        }
+    }
+}
